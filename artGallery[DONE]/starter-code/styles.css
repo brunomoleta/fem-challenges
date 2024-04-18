@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+* {
+  max-inline-size: var(--measure);
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer,
+section,
+article,
+ul,
+form,
+input[type="text"] {
+  max-inline-size: none;
+}
+
+
+:root {
+  --measure: 60ch;
+}
+
+body {
+    /* background-color: rebeccapurple; */
+    font-family: var(--primary-font);
+}
+
+.a {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body p {
+    font-family: var(--secondary-font);
+}

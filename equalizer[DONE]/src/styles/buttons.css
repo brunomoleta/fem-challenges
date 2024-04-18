@@ -1,0 +1,49 @@
+#buttons {
+  width: 100%;
+}
+#buttons {
+  margin-block-start: var(--buttons-margin-start);
+}
+button {
+  height: var(--btn-height);
+}
+
+button{
+  transition: background-color 300ms;  
+}
+
+button,
+.card,
+#cards {
+  border-radius: var(--btn-radius);
+}
+
+#ios {
+  background-color: var(--color-brand-black);
+  color: var(--color-brand-white);
+}
+
+#android::before {
+  content: "";
+  background-image: url(../assets/icon-android.svg);
+  background-repeat: no-repeat;
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
+#ios::before {
+  content: "";
+  background-image: url(../assets/icon-apple.svg);
+  background-repeat: no-repeat;
+  width: var(--icon-size);
+  height: var(--icon-size);
+}
+
+#ios:hover {
+  background-color: var(--color-brand-cyan);
+}
+#android:hover {
+  background-color: var(--color-brand-yellow);
+}
+#android {
+  background-color: var(--color-brand-white);
+}

@@ -1,0 +1,160 @@
+<!-- Breakpoint prefix	Minimum width	CSS -->
+<!-- sm	640px	@media (min-width: 640px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... } -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/favicon-32x32.png"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./src/scripts/tailwindConfig.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/ee69e875fb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&family=Victor+Mono:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Modern Art Gallery Location</title>
+  </head>
+  <body class="relative">
+    <main>
+      <section>
+        <button
+          aria-label="Our Location"
+          id="btn-location"
+          class="lg:left-[10rem]  absolute top-0 left-0 sm:left-10 group w-full max-w-xs grid grid-cols-[6fr_1fr] items-center justify-items-center"
+        >
+          <span
+            class="group-focus:bg-dark-900 group-hover:bg-gold flex py-3 items-center justify-center w-full h-full text-white text-xl font-bold font-['Big_Shoulders_Display'] bg-dark-900 transition"
+          >
+            BACK TO HOME
+          </span>
+          <div
+            class="group-focus:bg-gold group-hover:bg-dark-900 w-full py-3 h-full bg-gold flex items-center justify-center transition"
+          >
+            <svg width="10" height="24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="#FFF" fill="none" d="M9 24 1 12 9 0" />
+            </svg>
+          </div>
+        </button>
+
+        <img
+          src="./src/assets/mobile/image-map@2x.png"
+          alt="Map of the museum's region"
+          class="sm:hidden lg:hidden"
+        />
+        <img
+          src="./src/assets/tablet/image-map@2x.png"
+          alt="Map of the museum's region"
+          class="hidden sm:block lg:hidden"
+        />
+        <img
+          src="./src/assets/desktop/image-map@2x.png"
+          alt="Map of the museum's region"
+          class="hidden sm:block lg:block"
+        />
+      </section>
+      <section class="text-white bg-dark-900 font-['Outfit'] lg:flex lg:justify-center">
+        <div
+          class="lg:px-[10rem] lg:w-full lg:px-0 lg:py-[6.5rem] lg:max-w-7xl sm:grid sm:grid-cols-[28%,1fr] lg:grid-cols-[1fr,1fr] px-6 sm:px-10 py-12 flex flex-col gap-7"
+        >
+          <h2
+            class="text-5xl lg:leading-[90%] font-['Big_Shoulders_Display'] lg:text-[4.375rem]"
+          >
+            OUR <br> LOCATION
+          </h2>
+
+          <div class="flex flex-col gap-7 sm:gap-5 lg:text-xl">
+            <address>
+              <ol
+                class="leading-7 lg:leading-[2rem] not-italic flex flex-col sm:gap-2"
+              >
+                <div>
+                  <li
+                    class="text-3xl lg:text-[2.25rem] font-['Big_Shoulders_Display'] text-gold"
+                  >
+                    99 KING STREET
+                  </li>
+                </div>
+                <div>
+                  <li>Newport</li>
+                  <li>RI 02840</li>
+                  <li>United States of America</li>
+                </div>
+              </ol>
+            </address>
+            <p class="leading-7 max-w-[50ch] lg:leading-[2rem]">
+              Our newly opened gallery is located near the Edward King House on
+              99 King Street, the Modern Art Gallery is free to all visitors and
+              open seven days a week from 8am to 9pm.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-gold w-full lg:flex lg:justify-center">
+      <div
+        class="lg:px-[10rem] lg:w-full lg:px-0 lg:max-w-7xl  lg:py-[6.5rem] lg:grid-cols-2 sm:grid sm:gap-y-4 sm:gap-x-7 sm:grid-cols-[28%,1fr] px-6 sm:px-10 py-12 flex flex-col gap-9 sm:flex-row sm:items-start lg:grid-cols-[1fr,1fr]"
+      >
+        <h3
+          class=" lg:text-4xl font-['Big_Shoulders_Display'] leading-[90%] lg:leading-[90%] text-2xl min-w-[10rem]"
+        >
+          MODERN<br /> ART GALLERY
+        </h3>
+        <p
+          class="font-['Outfit'] leading-7 max-w-[50ch] mt-[-.5rem] lg:text-lg"
+        >
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+        <ul class="flex gap-5 items-center">
+          <li>
+            <a
+              href="https://www.facebook.com/MuseumofModernArt/"
+              target="_blank"
+            >
+              <i
+                class="fa fa-facebook bg-dark-900 text-gold p-1 pl-1.5 pb-0 pr-px rounded-sm hover:bg-white transition"
+              ></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/themuseumofmodernart/"
+              target="_blank"
+            >
+              <i class="fa fa-instagram hover:text-white transition"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/MuseumModernArt" target="_blank">
+              <i class="fa fa-twitter hover:text-white transition"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="./src/scripts/indexLocation.js"
+      defer
+    ></script>
+  </body>
+</html>

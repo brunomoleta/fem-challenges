@@ -1,0 +1,14 @@
+body {
+  background-color: var(--cream);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--global-gap-desktop);
+}
+
+@media (width < 40rem) {
+  footer {
+    display: none;
+  }
+}

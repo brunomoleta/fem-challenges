@@ -1,0 +1,132 @@
+.card {
+  background-color: var(--color-brand-red);
+  color: var(--color-brand-white);
+
+  opacity: 0.99;
+
+  max-width: var(--card-max-width-desktop);
+  margin-bottom: -48rem;
+}
+
+.card,
+#card__image {
+  margin-block-start: -24rem;
+}
+
+#card__image {
+  position: relative;
+  z-index: 1;
+  width: 28rem;
+  height: 5 * var(--card-ill);
+}
+
+#card__vector {
+  position: absolute;
+  top: 40%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+#cards {
+  margin-block: 8rem;
+  gap: 16%;
+}
+
+.illustration__background {
+  position: relative;
+  background-color: var(--color-brand-black);
+}
+
+.card__price {
+  gap: var(--price-gap);
+}
+
+.card__btn {
+  gap: var(--btn-gap);
+}
+
+.card__info {
+  padding: 50px;
+}
+
+.card__info__text {
+  gap: 2rem;
+}
+
+@media screen and (min-device-width: 551px) and (max-device-width: 950px) {
+  #cards {
+    margin-block: 0;
+  }
+  .illustration__background {
+    min-height: 60rem;
+  }
+  #card__vector {
+    transform: none;
+    position: static;
+    margin-top: -10rem;
+  }
+  #card__image {
+    position: absolute;
+    top: -19%;
+    left: 4%;
+    margin-block-start: 0;
+
+    max-width: 27rem;
+    max-height: 56rem;
+
+    z-index: 0;
+
+    margin-block-start: 0;
+  }
+
+  .card {
+    max-width: var(--card-max-width-tablet);
+    align-self: center;
+    right: 4%;
+    bottom: -15%;
+    position: absolute;
+    margin-bottom: 0;
+  }
+  .card__info {
+    padding: var(--card-padding-table);
+  }
+}
+
+@media (max-width: 550px) {
+  #card__vector {
+    position: static;
+    transform: none;
+    max-width: 95%;
+  }
+
+  #cards {
+    margin-block: 0;
+    justify-content: none;
+    gap: 0;
+  }
+  .card {
+    padding-block: var(--card-padding-inline-mobile);
+    margin: 0;
+    margin-block-start: -4rem;
+  }
+  .illustration__background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card__info {
+    padding: 0;
+    width: 88%;
+  }
+  #card__image {
+    position: absolute;
+    width: 100%;
+    max-width: var(--card-ill-triple);
+    height: auto;
+    z-index: 1;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

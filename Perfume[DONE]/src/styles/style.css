@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+@import url(./card.css);
+@import url(./globalStyles.css);
+@import url(./CardMediaMobile.css);
+@import url(./reset.css);
+@import url(./root.css);
+@import url(./footer.css);
+@import url(./button.css);

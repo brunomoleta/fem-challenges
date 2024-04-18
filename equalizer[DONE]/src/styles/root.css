@@ -1,0 +1,94 @@
+:root {
+    --color-brand-cyan: #66E2DC;
+    --color-brand-red:#FA7453;
+    --color-brand-yellow:#FFB964;
+    --color-brand-white:#FCFAF9;
+    --color-brand-black:#191826; 
+    
+    --large-font-size: 8.8rem;
+    --h1-tablet-font-size: 6.4rem;
+    --medium-font-size: 4.0rem;
+    --normal-font-size: 2.0rem;
+    --small-font-size: 1.8rem;
+    --smaller-font-size: 1.6rem;
+
+    
+    --main-margin-top-table: 12rem;
+    
+    --text-gap: 16rem;
+    
+    --price-font-size: 6.5rem;
+    
+    --large-line-height: 8.8rem;
+    --h1-tablet-line-height: 6.4rem;
+    --medium-line-height: 5.2rem;
+    --normal-line-height: 3.4rem;
+    --small-line-height: 2.6rem;
+
+    --negative-spacing: .1rem;
+
+    --bold-font: 700;
+    --normal-font: 400;
+
+    --btn-radius: 1.2rem;
+
+    --btn-height: 6rem;
+
+    --btn-max-width: 34rem;
+
+    --text-margin-inline-mobile: 2.4rem;
+
+    --card-padding-block: 4.8rem;
+
+    --card-padding-inline-mobile: 4.0rem;
+    --card-padding-inline-table: 5.5rem;
+    --card-padding-inline-desktop: 6.0rem;
+
+    --card-max-width-tablet: 38rem;
+    --card-max-width-desktop: 42rem;
+    --card-padding-table: 4rem;
+
+    --small-gap: 1.6rem;
+
+    --price-gap: var(--small-gap);
+    --btn-gap: var(--small-gap);
+
+    --illustration-bg-height: 60rem;
+
+    --nav-margin-top-mobile: 4rem;
+    --nav-margin-top: 6.2rem;
+    --margin-top: 6.2rem;
+
+    --gap-mobile: 6.4rem;
+    --text-margin-block-mobile: 6.4rem;
+    --footer-info-margin-block: var(--text-margin-block-mobile);
+
+    --cards-margin-block-end-mobile: 6.4rem;
+    --cards-margin-block-start-mobile: calc(var(--cards-margin-block-end-mobile)*2.5);
+
+    --buttons-margin-end: 4.8rem;
+    --buttons-margin-start: 3.2rem;
+    
+    --footer-info-gap: var(--buttons-margin-start);
+
+    --footer-margin-bottom: 8rem;
+
+    --footer-icons-gap: 2rem;
+
+    --border-thickness: 2.0px solid;
+
+    --card-ill: 7rem;
+    --card-ill-twice: calc(var(--card-ill)*2);
+    --card-ill-triple: calc(var(--card-ill)*3);
+
+    --header-ill: 8rem;
+    --header-ill-twice: calc(var(--header-ill)*2);
+    --header-ill-four: calc(var(--header-ill)*4);
+
+    --header-ill-tablet: 6.5rem;
+    --header-ill-twice-tablet: calc(var(--header-ill-tablet)*2);
+    --header-ill-four-tablet: calc(var(--header-ill-tablet)*4);
+
+    --icon-size: 2rem;
+}
+

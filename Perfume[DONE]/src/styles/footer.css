@@ -1,0 +1,13 @@
+footer {
+  font-size: var(--footer-font-size);
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+
+.attribution > a {
+  color: var(--deep-aquamarine);
+}
+
+.attribution > a:hover {
+  color: var(--deep-aquamarine-hover);
+}

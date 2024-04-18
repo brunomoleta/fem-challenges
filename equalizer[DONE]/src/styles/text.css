@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap");
+
+/* After the h1 text */
+#text {
+  margin-bottom: var(--text-gap);
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1,
+button {
+  line-height: var(--large-line-height);
+}
+
+h1 {
+  letter-spacing: var(--negative-spacing);
+  font-size: var(--large-font-size);
+}
+
+h1, p {
+  max-width: 88.5rem;
+}
+
+h1,
+button,
+#price {
+  font-weight: var(--bold-font);
+}
+
+#price {
+  font-size: var(--price-font-size);
+}
+
+p, #card__month {
+  font-weight: var(--normal-font);
+  line-height: var(--normal-line-height);
+  font-size: var(--normal-font-size);
+}
+
+h2 {
+  font-size: var(--medium-font-size);
+  line-height: var(--medium-line-height);
+}
+
+#text {
+  max-width: 220ch;
+}
+
+@media (min-device-width: 551px) and (max-device-width: 950px) {
+  p,
+  #card__month {
+    font-size: var(--small-font-size);
+    line-height: var(--small-line-height);
+    max-width: 48ch;
+  }
+  h1 {
+    font-size: var(--h1-tablet-font-size);
+    line-height: var(--h1-tablet-line-height);
+    max-width: 20ch;
+  }
+}
+
+@media (width <= 550px) {
+  h1 {
+    font-size: var(--medium-font-size);
+    line-height: var(--medium-line-height);
+  }
+  p,
+  #card__month {
+    font-size: var(--smaller-font-size);
+    line-height: var(--small-line-height);
+  }
+}

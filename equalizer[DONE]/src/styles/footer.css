@@ -1,0 +1,51 @@
+.footer__info {
+  margin-block: var(--footer-info-margin-block);
+  gap: 4rem;
+}
+
+footer {
+  margin-bottom: var(--footer-margin-bottom);
+}
+
+#footer__icons {
+  gap: var(--footer-icons-gap);
+}
+
+#facebook > a,
+#instagram > a,
+#twitter > a {
+  display: inline-block;
+  padding: 2rem;
+  margin: -2rem;
+  position: relative;
+}
+
+#facebook > a:hover > svg > path,
+#instagram > a:hover > svg > path,
+#twitter > a:hover > svg > path {
+  fill: var(--color-brand-red);
+}
+
+#facebook > a> svg > path,
+#instagram > a> svg > path,
+#twitter > a> svg > path{
+  transition: fill 250ms;
+}
+
+
+footer {
+  align-items: center;
+}
+
+.footer__p {
+  max-width: 43rem;
+}
+
+@media (max-width: 950px) {
+  .footer__info {
+    gap: 2rem;
+  }
+  footer {
+    align-items: flex-start;
+  }
+}
